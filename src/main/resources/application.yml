@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: customer-service
+  data:
+    mongodb:
+      uri: mongodb+srv://m001-student:Y.salim2233@sandbox.olfzouy.mongodb.net/?retryWrites=true&w=majority
+      database: test
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/
